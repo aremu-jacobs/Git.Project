@@ -1,0 +1,76 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>OneSchool</title>
+  <base href="/">
+    <meta name="viewport" content="width=device-width,shrink-to-fit=no,user-scalable=no,initial-scale=1,minimum-scale=1,maximum-scale=1">
+  <link rel="icon" type="image/x-icon" href="favicon.ico">
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js" crossorigin="anonymous"></script>
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Jost&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script src="https://www.google.com/recaptcha/api.js?render=6LcbeOQUAAAAAMUWUaIXIv4nZipNFXFORX25zntk"></script>
+<style>
+.svg-app-loader {
+  -webkit-animation: rotateRight .72s steps(8, end)  infinite;
+  animation: rotateRight .72s steps(8, end)  infinite;
+  opacity: 1;
+  -webkit-transition: opacity .5s ease-out;
+  -o-transition: opacity .5s ease-out;
+  transition: opacity .5s ease-out;
+  position: fixed;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  width: 64px;
+  height: 64px;
+  pointer-events: none;
+  -ms-touch-action: none;
+  touch-action: none;
+}
+@-webkit-keyframes rotateRight {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(-359.99999deg);
+    transform: rotate(-359.99999deg);
+  }
+}
+@keyframes rotateRight {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(-359.99999deg);
+    transform: rotate(-359.99999deg);
+  }
+}
+</style>
+</head>
+<body>
+  <app-landing>
+    <svg xmlns:svg="http://www.w3.org/2000/svg" class="svg-app-loader" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.0" width="64px" height="64px" viewBox="0 0 128 128" xml:space="preserve">
+      <g>
+          <circle cx="16" cy="64" r="16" fill="#00a7fa" fill-opacity="1"></circle>
+          <circle cx="16" cy="64" r="16" fill="#55c4fc" fill-opacity="0.67" transform="rotate(45,64,64)"></circle>
+          <circle cx="16" cy="64" r="16" fill="#94dafd" fill-opacity="0.42" transform="rotate(90,64,64)"></circle>
+          <circle cx="16" cy="64" r="16" fill="#ccedfe" fill-opacity="0.2" transform="rotate(135,64,64)"></circle>
+          <circle cx="16" cy="64" r="16" fill="#e1f5fe" fill-opacity="0.12" transform="rotate(180,64,64)"></circle>
+          <circle cx="16" cy="64" r="16" fill="#e1f5fe" fill-opacity="0.12" transform="rotate(225,64,64)"></circle>
+          <circle cx="16" cy="64" r="16" fill="#e1f5fe" fill-opacity="0.12" transform="rotate(270,64,64)"></circle>
+          <circle cx="16" cy="64" r="16" fill="#e1f5fe" fill-opacity="0.12" transform="rotate(315,64,64)"></circle>
+      </g>
+    </svg>
+  </app-landing>
+<script type="text/javascript" src="inline.bundle.4da559f73eee2fe57534.js"></script><script type="text/javascript" src="polyfills.bundle.93896904ceb40060e7c4.js"></script><script type="text/javascript" src="styles.bundle.9b5df5df07919546ccaa.js"></script><script type="text/javascript" src="vendor.bundle.32c978a72c2e44d14607.js"></script><script type="text/javascript" src="main.bundle.cf02f5740dfbd3a040ee.js"></script></body>
+</html>
